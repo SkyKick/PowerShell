@@ -120,6 +120,7 @@
   <data name="ShellBannerNonWindowsPowerShell" xml:space="preserve">
     <value>PowerShell {0}
 Copyright (c) Microsoft Corporation. All rights reserved.
+SkyKick Enhanced Runtime!
 
 https://aka.ms/pscore6-docs
 Type 'help' to get help.</value>

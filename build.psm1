@@ -209,12 +209,15 @@ function Test-IsPreview
         [switch]$IsLTS
     )
 
-    if ($IsLTS.IsPresent) {
-        ## If we are building a LTS package, then never consider it preview.
-        return $false
-    }
+    # Hard coding this since we want to use addtl skykick version label --JD
+    return $false
 
-    return $Version -like '*-*'
+    # if ($IsLTS.IsPresent) {
+    #    ## If we are building a LTS package, then never consider it preview.
+    #    return $false
+    # }
+
+    # return $Version -like '*-*'
 }
 
 <#
